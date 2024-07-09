@@ -177,7 +177,7 @@ margin: 20px 0;
 }
 .fremwork .comon{
     width: 320px;
-    height: 300px;
+    height: 250px;
     background-color: antiquewhite;
     margin: 20px;
     flex-direction: column;
@@ -249,7 +249,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+   padding-top: 20px;
 }
 .input-text{
     width: 500px;
@@ -280,4 +280,18 @@ footer{
     font-weight: bold;
     border-radius: 8px;
     border: none;
+    
 }
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.contact img{
+    margin: 0px 8px;
+}
+.contact .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+/*  */
