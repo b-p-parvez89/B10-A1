@@ -130,3 +130,154 @@ margin: 20px 0;
     height: 244px;
     width: 274px;
 }
+/* Section My Insperition */
+#insparition{
+    text-align: center;
+}
+.inpair{
+    margin: 0 100px;
+    margin-bottom: 30px;
+}
+.title-text{
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+.des-text{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+#insparition .vedio{
+    height: 550px;
+    width: 1076px;
+    padding: 32px;
+    margin-top: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    border-radius: 16px;
+}
+.vedio iframe{
+    height: 550px;
+    width: 1076px;
+    border-radius: 16px;
+}
+
+/* My Current Teget  Section*/
+#my-target{
+    margin: 100px 0;
+}
+.tergat-text{
+    text-align: center;
+    margin: 0 97px;
+}
+.fremwork{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fremwork .comon{
+    width: 320px;
+    height: 300px;
+    background-color: antiquewhite;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 25px;
+    border-radius: 16px;
+}
+
+.fremwork .comon h2{
+    font-size: 24px;
+    color: #0D1321;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.fremwork .comon p{
+    font-size: 16px;
+    color: #0D1321;
+    
+}
+.fremwork .comon a{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: bold;
+
+}
+.fremwork .html{
+    background-color: rgba(250, 235, 215, 0.4);
+}
+.fremwork .css{
+    background-color: rgba(87, 182, 187, 0.2);
+}
+.fremwork .js{
+    background-color: rgba(251, 245, 158, 0.2);
+}
+
+
+/* My Next Tergate Section */
+.next-fremwork{
+    border-radius: 16px;
+    border: 1px solid #0D1321;
+   display: flex;
+    padding: 40px 20px;
+    margin-top:20px ; 
+}
+
+.next-fremwork img{
+    height: 88;
+    width: 143px;
+    margin-right: 20px;
+}
+.next-fremwork a{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: bold;
+}
+
+/* Footer Section */
+
+footer{
+    margin: 30px 150px;
+}
+
+.support{
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0) rgba(255, 255, 255,)) url('../assets/handshake.jpg'); */
+    text-align: center;
+    background-image: url('../assets/handshake.jpg');
+    height: 250px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.input-text{
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    color: #0D1321;
+    border: none;
+    padding-left: 8px;
+}
+.input-button{
+    margin-top: 20px;
+}
+.support .title-text{
+    color: white;
+
+}
+.support p{
+    margin: 0 100px;
+    font-size: 16px;
+    color: white;
+}
+.submit-button{
+    padding: 10px 30px;
+    background-color: white;
+    color: #000;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
